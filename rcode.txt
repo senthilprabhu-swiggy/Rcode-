@@ -1,0 +1,25 @@
+username = "pvvortex@gmail.com",
+               password = "Yw7BXdKzGk5UTw3")
+
+
+install.packages("mailR", dep = T)
+library(mailR)
+send.mail (from = "pvvortex@gmail.com",
+          to = "pallavi.venkateshan@gmail.com",
+          subject = "Subject of the email",
+          body = "Body of the email",
+          smtp = list(host.name = "smtp.gmail.com", port = 465, user.name = "pvvortex@gmail.com", passwd = "Yw7BXdKzGk5UTw3", ssl = TRUE),
+          authenticate = TRUE,
+          send = TRUE)
+
+https://myaccount.google.com/lesssecureapps
+
+install.packages("mailR", dep = T)
+library(mailR)
+send.mail (from = "pallavi.venkateshan@swiggy.in",
+           to = "pvvortex@gmail.com",
+           subject = "Subject of the email",
+           body = "Body of the email",
+           smtp = list(host.name = "smtp.gmail.com", port = 465, user.name = "pallavi.venkateshan@swiggy.in", passwd = "Skadoosh102##$", ssl = TRUE),
+           authenticate = TRUE,
+           send = TRUE)
